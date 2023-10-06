@@ -1,9 +1,5 @@
 # AI Tools & Research Projects
-The repository contains a list of ready-to-use AI Tools, Open Sources, and Research Projects \
-Apart from LLMs, you can find here new AI research from other areas such as Computer Vision, etc.\
-Welcome to contribute.
-
-
+This repository contains a list of ready-to-use ai tools, open source stuff, and research projects\
 
 ## Tools
 |Text-to-Image|Text-to-Music|Text-to-Video|Games|Brand|Prompt|
