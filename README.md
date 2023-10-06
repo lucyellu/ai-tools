@@ -1,5 +1,5 @@
 # AI Tools & Research Projects
-This repository contains a list of ready-to-use ai tools, open source stuff, and research projects\
+List of links to ai tools and research projects
 
 ## Tools
 |Text-to-Image|Text-to-Music|Text-to-Video|Games|Brand|Prompt|
