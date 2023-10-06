@@ -38,6 +38,16 @@ This repository contains a list of ready-to-use ai tools, open source stuff, and
 - [Composer](https://damo-vilab.github.io/composer-page/) - a large (5 billion parameters) controllable diffusion model trained on billions of (text, image) pairs. It can exponentially expand the control space through composition, leading to an enormous number of ways to generate and manipulate images, i.e., making the infinite use of finite means
 - [GigaGAN: Large-scale GAN for Text-to-Image Synthesis](https://mingukkang.github.io/GigaGAN/) - changing texture with prompting, changing style with prompting
 
+## Large Visual Language Models (LVLMs)
+- [Qwen-VL](https://github.com/QwenLM/Qwen-VL) - is the multimodal version of the large model series. Accepts image, text, and bounding box as inputs, outputs text and bounding box
+- [AnomalyGPT](https://github.com/CASIA-IVA-Lab/AnomalyGPT) - the LVLM based Industrial Anomaly Detection (IAD) method that can detect anomalies in industrial images without the need for manually specified thresholds
+- [IDEFICS](https://huggingface.co/blog/idefics) - an open-access VLM based on Flamingo. The model accepts arbitrary sequences of image and text inputs and produces text outputs, aiming to bring transparency to AI systems and serve as a foundation for open research in multimodal AI systems
+- [Prismer](https://shikun.io/projects/prismer) - a data- and parameter-efficient VLM that leverages an ensemble of diverse, pre-trained domain experts
+- [MiniGPT-4](https://minigpt-4.github.io/) - upload an image, and then use chat to identify what's in the picture and learn more about it
+- [MultiModal-GPT](https://github.com/open-mmlab/Multimodal-GPT) - a vision and language model for multi-round dialogue with humans; the model is fine-tuned from OpenFlamingo, with LoRA added in the cross-attention and self-attention parts of the language model
+- [LLaVA](https://llava-vl.github.io/) - a novel end-to-end trained large multimodal model that combines a vision encoder and Vicuna for general-purpose visual and language understanding
+- [TaskMatrix](https://github.com/microsoft/visual-chatgpt) - connects ChatGPT and a series of Visual Foundation Models to enable sending and receiving images during chatting
+  
 ## Multi-modal
 - [ImageBind](https://ai.facebook.com/blog/imagebind-six-modalities-binding-ai/), [Demo](https://imagebind.metademolab.com/demo), [Code](https://github.com/facebookresearch/ImageBind) - Image->Audio, Audio->Image, Text->Image&Audio, Aidio&Image->Image, Audio->Generated Image, by MetaAI
 - [GEN-1](https://runwayml.com/ai-magic-tools/gen-1/), [Research](https://research.runwayml.com/gen1) - use words and images to generate new videos out of existing ones by Runway: [AI-Magic-Tools](https://runwayml.com/ai-magic-tools/)
@@ -310,15 +320,6 @@ Stanford|||[Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html)|
 - [LLaMA2-Accessory](https://github.com/Alpha-VLLM/LLaMA2-Accessory) - an open-source toolkit for pre-training, fine-tuning and deployment of Large Language Models (LLMs) and mutlimodal LLMs
 - [LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter) - a lightweight adaption method for fine-tuning Instruction-following and Multi-modal LLaMA models
 
-## Large Visual Language Models (LVLMs)
-- [Qwen-VL](https://github.com/QwenLM/Qwen-VL) - is the multimodal version of the large model series. Accepts image, text, and bounding box as inputs, outputs text and bounding box
-- [AnomalyGPT](https://github.com/CASIA-IVA-Lab/AnomalyGPT) - the LVLM based Industrial Anomaly Detection (IAD) method that can detect anomalies in industrial images without the need for manually specified thresholds
-- [IDEFICS](https://huggingface.co/blog/idefics) - an open-access VLM based on Flamingo. The model accepts arbitrary sequences of image and text inputs and produces text outputs, aiming to bring transparency to AI systems and serve as a foundation for open research in multimodal AI systems
-- [Prismer](https://shikun.io/projects/prismer) - a data- and parameter-efficient VLM that leverages an ensemble of diverse, pre-trained domain experts
-- [MiniGPT-4](https://minigpt-4.github.io/) - upload an image, and then use chat to identify what's in the picture and learn more about it
-- [MultiModal-GPT](https://github.com/open-mmlab/Multimodal-GPT) - a vision and language model for multi-round dialogue with humans; the model is fine-tuned from OpenFlamingo, with LoRA added in the cross-attention and self-attention parts of the language model
-- [LLaVA](https://llava-vl.github.io/) - a novel end-to-end trained large multimodal model that combines a vision encoder and Vicuna for general-purpose visual and language understanding
-- [TaskMatrix](https://github.com/microsoft/visual-chatgpt) - connects ChatGPT and a series of Visual Foundation Models to enable sending and receiving images during chatting
 
 ## Evaluation
 - [Arthur Bench](https://www.arthur.ai/blog/introducing-arthur-bench) - an open-source evaluation tool for comparing LLMs, prompts, and hyperparameters for generative text models
